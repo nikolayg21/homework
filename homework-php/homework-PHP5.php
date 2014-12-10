@@ -8,15 +8,21 @@ span img {
 }
 	input[type='button'] {
 		color: white;
-		background-color: blue;
+		background-color: #0066FF;
 		padding: 10px;
+
 	}
 	h1 {
-		font-size: 18px;
+		font-size: 16px;
+       	width: 280px;
 	}
 	div, span, ul, li {
 		font-style: 8px;
 	}
+div > .my-class {
+	font-size: 40px;
+	width: 300px;
+}
 </style>
 </head>
 <body>
@@ -34,7 +40,8 @@ span img {
 	<img src="images/maseratti.jpg">
 	</span>
 	<br></br	> 
-	Изящна изобразителна техника,добротата и чистата енергия,струяща от картините на международната озложна "Истинност,Доброта"
+	 <p class="my-class"> Изящна изобразителна техника,добротата и чистата енергия,струяща от картините на международната озложна "Истинност,Доброта"
+	</p>
 	</div>
 	<br></br>
 	<input type="button" value="Прочети още...> ">

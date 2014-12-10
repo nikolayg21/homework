@@ -5,11 +5,18 @@
 <style>
 header nav ul li {
 	display: inline-block;
-	 color: light blue;
-	 background-color: #33FFFF;
+	 color: #0066FF;
+	 font-size: 16px;
+	 padding: 12px;
 }
  .menu li {
-	float: left;
+	display: inline-block;
+	padding: 20px;
+	color: #0066FF;
+}
+#other {
+	background-color: #3333CC;
+	color: white;
 }
 </style>
 </head>
@@ -17,7 +24,7 @@ header nav ul li {
 	<header>
 		<nav>
 			<ul>
-				<li>Всички</li>
+				<li id="other">Всички</li>
 				<li>Храни и Битови Стоки</li>
 				<li>Козметика</li>
 				<li>Бяла и черна техника</li>
@@ -33,12 +40,10 @@ header nav ul li {
 		<img src="images/images1.jpg"> 
 		<div>PENNY</div> 
 		<div>[20.12 - 27.12.2014]</div>
-		</li>
 	</li>
 	<li>
-	
 		<img src="images/images2.jpg"> 
-		<div>BILLA</div
+		<div>BILLA</div>
 		 <div>[10.10 - 17.10.2014]</div>
 	</li>
 	<li>
